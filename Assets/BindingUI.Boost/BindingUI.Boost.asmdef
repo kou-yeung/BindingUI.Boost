@@ -1,0 +1,17 @@
+{
+    "name": "BindingUI.Boost",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0a24d2202e7bf9d46ad24df06335602a",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
