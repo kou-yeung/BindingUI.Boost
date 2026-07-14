@@ -1,0 +1,19 @@
+{
+    "name": "BindingUI.Boost.DOTween",
+    "rootNamespace": "BindingUI.Boost.DOTween",
+    "references": [
+        "BindingUI",
+        "DOTween.Modules"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "BINDINGUI_BOOST_DOTWEEN"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
