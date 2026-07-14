@@ -21,7 +21,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "fa485e9adf492f0e5095aff3f51c4a937160cb2b"
+      "hash": "f0894559ca94deef5a91212add9ab8d754a0add8"
     },
     "com.unity.2d.animation": {
       "version": "13.0.4",
@@ -141,15 +141,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ai.navigation": {
-      "version": "2.0.12",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.ai": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.analytics": {
       "version": "3.8.2",
       "depth": 0,
@@ -211,15 +202,6 @@
         "com.unity.2d.aseprite": "3.0.1",
         "com.unity.2d.tooling": "1.0.3"
       }
-    },
-    "com.unity.ide.rider": {
-      "version": "3.0.39",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
       "version": "2.0.26",
@@ -338,16 +320,6 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.13",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.vr": "1.0.0",
-        "com.unity.modules.xr": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },

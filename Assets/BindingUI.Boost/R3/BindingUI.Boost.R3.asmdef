@@ -1,0 +1,20 @@
+{
+    "name": "BindingUI.Boost.R3",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0a24d2202e7bf9d46ad24df06335602a",
+        "GUID:da760adba84862444bda9c6701737ed3",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "BINDINGUI_BOOST_R3"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

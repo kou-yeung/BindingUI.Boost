@@ -1,0 +1,16 @@
+{
+    "name": "BindingUI.Boost.Editor",
+    "rootNamespace": "BindingUI.Boost.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
