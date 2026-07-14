@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace BindingUI.Boost.DOTween.Sample
@@ -6,12 +7,14 @@ namespace BindingUI.Boost.DOTween.Sample
     {
         BindingRoot<DoTweenSampleDisplayData> rootSample;
         BindingRoot<DoTweenAnimationDisplayData> rootAnimation;
-
+        BindingRoot<DoTweenAnimationViewDisplayData> rootAnimationView;
+        
         private void Start()
         {
             var resolver = new HierarchyBindingNodeResolver(gameObject);
             BuildSampleRoot(resolver);
             BuildAnimationRoot(resolver);
+            BuildAnimationViewRoot(resolver);
         }
 
         /// <summary>
@@ -49,6 +52,21 @@ namespace BindingUI.Boost.DOTween.Sample
         public void OnAnimationClick()
         {
             rootAnimation.Apply(DoTweenAnimationDisplayData.Build());
+        }
+
+        /// <summary>
+        /// Sample for Animation View
+        /// </summary>
+        /// <param name="resolver"></param>
+        private void BuildAnimationViewRoot(HierarchyBindingNodeResolver resolver)
+        {
+            rootAnimationView = new BindingRoot<DoTweenAnimationViewDisplayData>(resolver);
+            rootAnimationView.Bind("TweenAnimationView").View(v => v);
+        }
+
+        public void OnAnimationViewClick()
+        {
+            rootAnimationView.Apply(DoTweenAnimationViewDisplayData.Build());
         }
     }
 }
